@@ -27,13 +27,14 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0.5rem 7%;
+    padding: 0.5rem;
     
 }
 
 .header .logo img{
     height: 10rem;
     margin-top: 15px;
+    /* margin-left: -15px; */
 }
 .header .icons div{
     cursor: pointer;
