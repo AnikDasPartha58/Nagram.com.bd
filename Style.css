@@ -11,12 +11,15 @@
     border: none;
     text-decoration: none;
     text-transform: capitalize;
+    font-family: sans-serif;
 }
 
 h2{
     color: white;
 }
-
+h3{
+  text-align: center;
+}
 
 header{
     background: var(--main-color);
@@ -139,7 +142,7 @@ header{
 
   h2{
     font-size: 15px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: sans-serif;
   }
   img{
     width: 100%;
