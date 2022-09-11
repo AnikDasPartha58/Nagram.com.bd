@@ -74,7 +74,12 @@ header{
     margin-top: 10px;
 }
 .quote{
+  font-size: 1rem;
   text-transform:capitalize;
+}
+.title{
+  text-align: center;
+  font-size: 1.5rem;
 }
 .size-ms{
   background-color: #ffffff;
@@ -208,7 +213,16 @@ header{
     background-color: #45a049;
   }
   
- 
+ .NB{
+  color: red;
+  font-size: 0.7rem;
+  font-weight: 700;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+ }
   
   /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
   @media (max-width: 800px) {
@@ -226,7 +240,7 @@ header{
 
 
 #title-h2{
-    font-size: 15px;
+    font-size: 25px;
     font-family: sans-serif;
   }
   img{
