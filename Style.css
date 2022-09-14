@@ -55,6 +55,14 @@ header{
 
 /* product details */
 
+.qnty{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+
+
 .price{
   background: black;
   color: white;
