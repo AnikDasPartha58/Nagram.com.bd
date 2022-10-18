@@ -12,7 +12,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
     />
 
-    <title>Nagram-Style everywhere</title>
+    <title>Nagram-Connect shopping everywhere</title>
   </head>
   <body>
     <header class="header">
@@ -26,146 +26,17 @@
       </div>
     </header>
     <!-- chekout form  -->
-
-    <div class="row">
-
-        <div class="col-25 mySlides fade">
-            <div class="container">
-                  <img src="/images/product1.jpeg" alt="">
-            </div>
-          </div>
-        <div class="col-25 mySlides fade">
-            <div class="container">
-                  <img src="/images/first-line-product-frontside-01.png" alt="">
-            </div>
-          </div>
-        <div class="col-25 mySlides fade">
-            <div class="container">
-                  <img src="/images/first-line-product-backside-01.png" alt="">
-            </div>
-          </div>
-
-          <!-- product details  -->
-          <div class="col-75">
-            <div class="price">
-              <h1 >Price : 450 &#2547</h1>
-            </div>
-            <div class="product-name">
-              <h3 class="quote">"You are not in the mountians.The mountians are in you."</h3>
-              <h2 class="title">limitless Drop-Sholder t-shirt by NAGRAM</h2>
-            </div>
-              
-              <div class="product-details">
-              <p>  <span> ● </span>100% Organic Cotton Knit</p>
-             <p><span> ● </span>Comfortable Thickness 170-180 GSM</p> 
-              <p><span> ● </span>Made in Nagram's Own Factory in Bangladesh</p>
-             <p><span> ● </span>Quality Controlled (QC) Finishing.</p>
-              <p><span> ● </span>Very Own Unique Design.</p>
-            </div>
-
-            <div class="size-ms">
-              <h4>SIZE MEASUREMENT <span>:</span></h4>
-              <br>
-<p> Size: M= Chest-42" <span>|</span> Length-27" <span>|</span> Sleeve-length-9.5</p>
-<br>
-<p> Size: L= Chest-43" <span>|</span> Length-28" <span>|</span> Sleeve-length-10 </p>
-<br>
-<p> Size: XL= Chest-46" <span>|</span> Length-30" <span>|</span> Sleeve-length-11 </p>
-            </div>
-          </div>
-          <!-- product details  -->
-
-        <div class="col-75">
-          <div class="container">
-            <form action="https://formspree.io/f/xoqbjbpv" method="POST">
-      
-              <div class="row">
-                <div class="col-50">
-                  <h3 id="order-h3">Order Details</h3>
-                  <!-- size area  -->
-                  <label for="quantity"><i class="fa-solid fa-shirt"></i>  <input type = "checkbox" id="m-size" name="Size" value="M"> M Size  </label> 
-                  <!-- <input type = "checkbox" id="m-size" name="Size" value="L"> L 
-                  <input type = "checkbox" id="m-size" name="Size" value="XL"> XL  -->
-                   <select name="quantity" id="size">
-                    <option value="0">0</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                  </select>
-                  
-                 
-                  <label for="quantity"><i class="fa-solid fa-shirt"></i>  <input type = "checkbox" id="m-size" name="Size" value="L"> L Size  </label> 
-                  <!-- <input type = "checkbox" id="m-size" name="Size" value="L"> L 
-                  <input type = "checkbox" id="m-size" name="Size" value="XL"> XL  -->
-                  <select name="quantity" id="size">
-                    <option value="0">0</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                  </select>
-                  <label for="quantity"><i class="fa-solid fa-shirt"></i>  <input type = "checkbox" id="m-size" name="Size" value="XL"> XL Size  </label> 
-                  <!-- <input type = "checkbox" id="m-size" name="Size" value="L"> L 
-                  <input type = "checkbox" id="m-size" name="Size" value="XL"> XL  -->
-                  <select name="quantity" id="size">
-                    <option value="0">0</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                  </select>
-
-                  <!-- size area  -->
-                  <!-- <label for="quantity"><i class="fa-solid fa-shirt"></i>Quantity</label>
-                  <select name="quantity" id="quantity">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                  </select> -->
-                  <label for="fname"><i class="fa fa-user"></i>Name</label>
-                  <input type="text" id="fname" name="firstname" placeholder="Enter your name">
-                  <label for="number"><i class="fa fa-phone"></i> Phone 1</label>
-                  <input type="text" id="email" name="number" placeholder="Enter your phone number">
-                  <label for="number"><i class="fa fa-phone"></i> Phone 2 (Optional)</label>
-                  <input type="text" id="email" name="number" placeholder="Enter your phone number">
-                  <label for="adr"><i class="fa-solid fa-location-dot"></i> Address</label>
-                  <!-- <input type="text" id="adr" name="address" placeholder="Ex: Area"> -->
-                  <textarea name="address" id="adr" cols="5" rows="5" placeholder="Enter your address"></textarea>
-                  <!-- <label for="city"><i class="fa-solid fa-city"></i> City</label>
-                  <input type="text" id="city" name="city" placeholder="New York"> -->
-                  <label for="delivery"><i class="fa-solid fa-truck"></i>Delivery Options</label>
-                  <!-- <select name="delivery" id="delivery">
-                    <option value="inside-dhaka">Inside Dhaka</option>
-                    <option value="outside-dhaka">Outside Dhaka</option>
-                  </select> -->
-                  <input type = "checkbox" id="Delivery" name="Delivery" value="Inside-Dhaka-70tk" > Inside Dhaka 60 &#2547 (24h-48h) <br>
-                  <input type = "checkbox" id="Delivery" name="Delivery" value="Outside-Dhaka-100tk"> Outside Dhaka 100 &#2547 (24h-72h) <br>
-                  <input type = "checkbox" id="Delivery" name="Delivery" value="Outside-Dhaka-150tk"> Outside Dhaka Home-Delivery 150 &#2547 (24h-72h)
-                  <br>
-                  <br>
-                  <label for="delivery"><i class="fa-solid fa-truck"></i>Delivery Platform</label>
-                  <input type = "checkbox" id="Delivery" name="Delivery-Option" value="Sundarban"> Sundarban Courier Serveice <br>
-                  <input type = "checkbox" id="Delivery" name="Delivery-Option" value="Pathao"> Pathao Courier Serveice
-                  
-                  <div class="dilntcbrd">
-                    <h3>Notice for returning order</h3>
-                    <p>For returning any existing order customer will have to bear all the returning courier costs.</p>
-                  </div>
+    <div class="product-container">
+    <div class="card">
+      <img src="images/product1.jpeg" alt="Avatar" style="width:100%">
+        <h4><b>Limitless</b></h4>
+        <p>Price : 450 &#2547</p>
+        <button><a href="Products/product1.html">Order Now</a></button>
+    </div>
+  </div>
 
 
-                </div>
-              </div>
-              <input type="submit" value="Confirm Your Order" class="btn">
 
-              <div class="NB">
-                <p>NB:To confirm your order NAGRAM team will contact you soon.</p>
-              </div>
-            </form>
-          </div>
-        </div>
-        <!-- checkout form  -->
-       
-      </div>
-      
       <footer>
         <h5> <span>©</span> Developed with <span>&#9829;</span> by <a href="https://www.instagram.com/nagram.com.bd/">NAGRAM</a> Team </h5>
       </footer>
