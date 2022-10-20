@@ -380,7 +380,35 @@ footer {
   footer {
     margin-top: 20px;
   }
+
+  /* popup notification  */
+  .contentBox {
+    max-width: 350px;
+    display: flex;
+    /* flex-direction: column; */
+  }
+  .contentBox .imgBx img {
+    width: 130px;
+    height: auto;
+    margin-top: 5px;
+  }
+
+  .contentBox .discount-content .nt h3 {
+    margin-left: -170px;
+    /* font-size: 2rem; */
+  }
+  .contentBox .discount-content .nt a {
+    margin-left: -55px;
+    /* margin-bottom: -50px; */
+    margin-top: 50px;
+  }
+  .contentBox .discount-content .nt p {
+    /* margin-left: -55px; */
+    /* margin-bottom: -50px; */
+    font-size: 1rem;
+  }
 }
+
 .header .logo img {
   height: 5rem;
   margin-bottom: 10px;
@@ -402,4 +430,90 @@ img {
 
 .hlw-size-optn {
   display: flex;
+}
+
+/* popup notification  */
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+.contentBox {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  background: #ffffff;
+  border-radius: 20px;
+  display: flex;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.contentBox .imgBx {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentBox .imgBx img {
+  position: relative;
+  z-index: 1;
+}
+
+.contentBox .discount-content {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentBox .discount-content h3 {
+  color: #da4242;
+  font-weight: 300;
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+}
+.contentBox .discount-content h2 {
+  color: #111111;
+  font-size: 1.5rem;
+  margin-left: 10px;
+  margin-top: -40px;
+}
+.contentBox .discount-content p {
+  color: #111111;
+  font-size: 1.2rem;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.contentBox .discount-content a {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #ff4d54;
+  color: #ffffff;
+  margin-top: 15px;
+  margin-left: 90px;
+  text-decoration: none;
+  border-radius: 10px;
+}
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+  background: #f3f3f3 url(./images/close.png);
+  background-repeat: no-repeat;
+  background-size: 10px;
+  background-position: center;
+  cursor: pointer;
+  border-radius: 50%;
+  z-index: 10;
 }
