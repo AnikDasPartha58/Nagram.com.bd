@@ -321,6 +321,7 @@ h3 {
 }
 .card > button:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  background: #f38e3c;
 }
 
 .card > button > a {
@@ -338,7 +339,7 @@ h3 {
 }
 
 footer {
-  margin-top: 100px;
+  margin-top: 200px;
 }
 
 /* homepage product card  */
