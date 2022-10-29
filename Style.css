@@ -384,28 +384,30 @@ footer {
   /* popup notification  */
   .contentBox {
     max-width: 350px;
+    max-height: 300px;
     display: flex;
     /* flex-direction: column; */
   }
   .contentBox .imgBx img {
     width: 130px;
     height: auto;
-    margin-top: 5px;
+    margin-bottom: 50px;
+    /* margin-top: 5px; */
   }
 
   .contentBox .discount-content .nt h3 {
+    margin-top: -150px;
     margin-left: -170px;
     /* font-size: 2rem; */
   }
   .contentBox .discount-content .nt a {
-    margin-left: -55px;
+    margin-left: 20px;
     /* margin-bottom: -50px; */
-    margin-top: 50px;
+    /* margin-top: 100px; */
   }
-  .contentBox .discount-content .nt p {
-    /* margin-left: -55px; */
-    /* margin-bottom: -50px; */
-    font-size: 1rem;
+  .contentBox .discount-content .nt h2 {
+    margin-right: 10px;
+    font-size: 1.5rem;
   }
 }
 
