@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/images/Group 17.png" type="image/x-icon">
+    <link rel="stylesheet" href="../Style.css" />
+    <script src="../script.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+
+    <title>Nagram-Style in RUET</title>
+  </head>
+  <body>
+    <header class="header">
+      <!-- <a href="/" class="logo">
+        <img src="/images/logo 8.png" alt="" />
+      </a>
+        <h2 id="title-h2">NAGRAM</h2>
+      <div class="icons">
+        <div id="fb-icon"><a href="https://www.facebook.com/nagram.com.bd"><i class="fa-brands fa-facebook fa-2xs"></i></a></i></div>
+        <div id="insta-btn"><a href="https://www.instagram.com/nagram.com.bd/"><i class="fa-brands fa-instagram fa-2xs"></i></a></i></div>
+      </div> -->
+
+      <a href="/" class="logo-hid">
+        <img src="/images/ng-logo.png" alt="" />
+      </a>
+      <div id="ng" class="ngxruet"><img src="/images/ngxruet.png" alt=""></div>
+        <!-- <h2 id="title-h2">NAGRAM</h2> -->
+      <div class="icons-hid">
+        <div ><a href="https://www.facebook.com/nagram.com.bd"><img class="fb-icon" src="/images/fb-icon-halloween.png" alt="" /></a></div>
+        <div ><a href="https://www.instagram.com/nagram.com.bd/"><img class="insta-icon" src="/images/insta-icon-halloween.png" alt="" /></a></div>
+      </div>
+
+    </header>
+    <!-- chekout form  -->
+
+    <div class="row">
+
+       
+        <div class="col-25 mySlides fade">
+            <div class="container">
+                  <img src="/images/ruet/ruet-1.png" alt="">
+            </div>
+          </div>
+        <div class="col-25 mySlides fade">
+            <div class="container">
+                  <img src="/images/ruet/ruet-2.png" alt="">
+            </div>
+          </div>
+
+          <!-- product details  -->
+          <div class="col-75">
+            
+            <div class="product-name">
+              <h3 class="quote">"Hello RUETIAN"</h3>
+              <h2 class="title" style="color: orange;">Winter Is Here</h2>
+              <h2 class="title">Black Panther Themed Hoodie</h2>
+            </div>
+              
+              <div class="product-details">
+              <p>  <span> ● </span>100% Organic Cotton Knit</p>
+             <p><span> ● </span>Comfortable Thickness 300+ GSM</p> 
+             <p><span> ● </span>Quality Controlled (QC) Finishing.</p>
+              <p><span> ● </span>Very Own Unique Design.</p>
+            </div>
+
+            <div class="size-ms">
+              <h4>SIZE MEASUREMENT <span>:</span></h4>
+              <br>
+<p> Size: M= Chest-40" <span>|</span> Length-27"</p>
+<br>
+<p> Size: L= Chest-42" <span>|</span> Length-28" </p>
+<br>
+<p> Size: XL= Chest-44" <span>|</span> Length-29" </p>
+<br>
+<p> Size: 2XL= Chest-46" <span>|</span> Length-30" </p>
+<br>
+<p> Size: 3XL= Chest-48" <span>|</span> Length-31" </p>
+            </div>
+            <br>
+            <div class="price">
+                <h1 >Price : 700 &#2547</h1>
+              </div>
+          </div>
+          <!-- product details  -->
+
+        <div class="col-75">
+          <div class="container">
+            <form action="https://formspree.io/f/xoqbjbpv" method="POST">
+      
+              <div class="row">
+                <div class="col-50">
+                  <h3 id="order-h3">Order Details</h3>
+                  <!-- size area  -->
+                  <label for="quantity size"><i><img src="/images/ruet/hoodie.png" alt="" style="width:20px;"></i>Black Hoodie </label> 
+                  <!-- <input type = "checkbox" id="m-size" name="Size" value="L"> L 
+                  <input type = "checkbox" id="m-size" name="Size" value="XL"> XL  -->
+                  <select name="Size" id="quantity">
+                    <option value="">Size</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                    <option value="2XL">3XL</option>
+                    <option value="3XL">3XL</option>
+                  </select>
+                  <select name="Quantity" id="size">
+                    <option value="">Quantity</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                  </select>
+                 
+                  <label for="fname"><i class="fa fa-user"></i>Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Enter your name">
+                  <label for="number"><i class="fa fa-phone"></i> Contact Number</label>
+                  <input type="text" id="email" name="number" placeholder="Enter your phone number">
+                  <label for="email"><i class="fa fa-envelope"></i> Your Email </label>  
+                  <input type="text" id="email" name="email" placeholder="Enter your email">
+                  <label for="roll-number"><i class="fa-solid fa-id-card"></i> RUET Roll</label>
+                  <input type="text" id="number" name="roll-number" placeholder="Enter your roll number">
+                  <br>
+
+                  <label for="payment"><i class="fa-sharp fa-solid fa-money-check-dollar"></i> Payment Options</label>
+                  <!-- <select name="delivery" id="delivery">
+                    <option value="inside-dhaka">Inside Dhaka</option>
+                    <option value="outside-dhaka">Outside Dhaka</option>
+                  </select> -->
+                  <input type = "checkbox" id="Payment" name="Payment" value="Bkash" > Bkash <br>
+                  <input type = "checkbox" id="Payment" name="Payment" value="Cash" > Cash <br>
+                 
+                  
+                  <div class="dilntcbrd">
+                    <h3>Notice</h3>
+                    <p>For any other queries or questions contact 01820705337</p>
+                  </div>
+
+
+                </div>
+              </div>
+              <input type="submit" value="Confirm Your Order" class="btn">
+
+              <div class="NB">
+                <p>NB:To confirm your order NAGRAM team will contact you soon.</p>
+              </div>
+            </form>
+          </div>
+        </div>
+        <!-- checkout form  -->
+       
+      </div>
+      
+      <footer>
+        <h5> <span>©</span> Developed with <span>&#9829;</span> by <a href="https://www.instagram.com/nagram.com.bd/">NAGRAM</a> Team </h5>
+      </footer>
+  </body>
+</html>
