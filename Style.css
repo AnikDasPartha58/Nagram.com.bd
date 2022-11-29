@@ -31,10 +31,9 @@ header {
 }
 
 .header .logo img {
-  height: 10rem;
   margin-top: 15px;
-  /* margin-left: -15px; */
 }
+
 /* halloween details */
 .fb-icon {
   margin-top: 5px;
@@ -84,11 +83,20 @@ header {
 }
 .icons {
   display: flex;
-  /* color: #ffffff; */
+  color: #ffffff;
 }
-
+.fb-btn > a {
+  font-size: 40px;
+  color: white;
+}
+.insta-btn > a {
+  font-size: 40px;
+  color: white;
+}
 #insta-btn {
   margin-right: 30px;
+  color: white;
+  text-decoration: none;
 }
 
 /* product details */
